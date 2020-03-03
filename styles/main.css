@@ -1,0 +1,47 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: url(../assets/img/occult.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 3rem;
+    font-weight: light;
+    color: #bfe9e3;
+}
+
+.buffer {
+    height: 7rem;
+}
+
+.btn {
+    font-weight: 300;
+    border: none;
+    border-radius: 6px;
+    background: hsl(297, 58%, 26%);
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn:hover {
+    color: #bfe9e3;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    box-shadow: 0px 5px 40px -10px hsla(122, 39%, 29%, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px hsla(122, 39%, 29%, 1);
+    -moz-box-shadow: 0px 5px 40px -10px hsla(122, 39%, 29%, 1);
+    transition: all 0.3s ease 0s;
+}
